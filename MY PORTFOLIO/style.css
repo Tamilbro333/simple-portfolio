@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+ID:wght@100..400&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+/*Navbar section start*/
+header {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(background\ with\ dr2.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    object-position: center;
+}
+
+.custom-navbar {
+    background-color: rgb(191, 127, 255);
+}
+
+.custom-navbar-menu li a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+
+}
+
+.hero_page {
+    padding:50px;
+
+}
+
+.brand-name {
+    font-family: "Poppins", sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    color: #8400ff;
+    text-transform: uppercase;
+    
+    text-shadow: 0 0 7px #ffffff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #8400ff, 0 0 82px #8400ff, 0 0 92px #8400ff, 0 0 102px #8400ff, 0 0 151px #8400ff;
+}
+
+.about-content{
+    font-size: 18px;
+    color: white;
+}
+.profile{
+    width: 100%;
+    filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+}
+.custom-button-project{
+   background-color: #ea00ff !important;
+   color: #fff !important;
+   box-shadow:
+        0 0 10px #ea00ff,
+        0 0 20px #ea00ff;
+}
+.quote{
+    font-size: 13px;
+    text-align: justify;
+    text-align: end;
+}
+figure{
+    margin-right: 18px;
+}
